@@ -1,0 +1,9 @@
+1.Find the prime factor decomposition of the NoD
+where ,
+NoD is the number of divisors.
+2.Generate every unique combination of these prime factors
+3.For each combination, extract these combination values from the original prime factor array and add one value to this array that is the extracted values multiplied together. Then sort elements in descending order.
+4.For each array created by the previous step, check which yields the minimal number when computing 2^(b1-1)*3^(b2-1)5^(b3-1)...
+5.This minimum number computed is the smallest number with NoD number of divisors
+
+
